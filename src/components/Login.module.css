@@ -1,0 +1,56 @@
+#loginContainer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgb(12, 22, 33);
+ margin: 120px 350px;
+ text-align: center;
+ padding: 20px 0;
+ /* background-color: rgb(4, 4, 27); */
+ /* color: whitesmoke; */
+}
+
+#bottomDiv {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ padding: 20px;
+ font-size: large;
+ margin-top: 20px;
+}
+
+#btn1 {
+ background-color: rgb(3, 3, 83);
+ color: whitesmoke;
+ font-size: large;
+ padding: 5px;
+ cursor: pointer;
+ border-radius: 5px;
+ border: 3px solid rgb(3, 3, 83);
+}
+
+#btn1:hover {
+ background-color: whitesmoke;
+ border: 3px solid blue;
+ color: blue;
+ text-decoration: none;
+}
+
+#btn2 {
+ border: none;
+ background-color: whitesmoke;
+ color: black;
+ text-decoration: underline;
+ font-size: large;
+ padding: 5px;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+#btn2:hover {
+ background-color: rgb(3, 3, 83);
+ color: whitesmoke;
+ text-decoration: none;
+}
